@@ -17,7 +17,7 @@ prompt=ChatPromptTemplate.from_messages(
         ("user","Question:{question}")
     ]
 )
-api_key=os.getenv('OPENAI_KEY')
+api_key=os.getenv('OPENAI_API_KEY')
 
 def generate_response(question,llm,temperature,max_tokens):
     llm=ChatOpenAI(model=llm,api_key=api_key)
