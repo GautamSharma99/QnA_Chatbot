@@ -9,11 +9,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Langchain tracking
-os.environ['LANGCHAIN_API_KEY']=os.getenv("LANGCHAIN_API_KEY")
-os.environ['LANGCHAIN_TRACKING_V2']='true'
-os.environ['LANGCHAIN_PROJECT']='Q&A Chatbot With OPENAI'
-
 ## prompt template
 
 prompt=ChatPromptTemplate.from_messages(
