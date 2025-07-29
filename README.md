@@ -1,3 +1,3 @@
 # QnA_Chatbot
 
-app link -> https://chatbot9.streamlit.app/
+app link -> https://qnachatbot-aciaw9bxnxzlgwkp35vefz.streamlit.app/
